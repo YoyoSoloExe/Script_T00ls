@@ -99,10 +99,10 @@ BtoolSection:NewButton("Btool", "avoir Btool", function()
 end)
 
 --fly
-local fly = Window:NewTab("Fly")
-local flySection = fly:NewSection("fly")
+local Fly = Window:NewTab("Fly")
+local FlySection = Fly:NewSection("Fly")
 
-flySection:NewButton("Fly (X)", "Voler", function()
+FlySection:NewButton("Fly (X)", "pouvoir voler", function()
     loadstring(game:HttpGet('https://pastebin.com/vPwGDYRA'))()
 end)
 
