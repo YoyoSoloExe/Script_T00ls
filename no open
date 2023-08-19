@@ -158,3 +158,10 @@ Tab:AddButton({
             end
   	end    
 })
+
+Tab:AddButton({
+	Name = "Get key",
+	Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/b87nZ4r2'))()   		
+  	end    
+})
