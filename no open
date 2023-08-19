@@ -100,7 +100,7 @@ end)
 
 --fly
 local fly = Window:NewTab("Fly")
-local flySection = invisible:NewSection("fly")
+local flySection = fly:NewSection("fly")
 
 flySection:NewButton("Fly (X)", "Voler", function()
     loadstring(game:HttpGet('https://pastebin.com/vPwGDYRA'))()
