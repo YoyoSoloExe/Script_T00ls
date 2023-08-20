@@ -162,6 +162,6 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Get key",
 	Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/b87nZ4r2'))()   		
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/YoyoSoloExe/Get-key-bypass/main/dont%20opened'))()
   	end    
 })
