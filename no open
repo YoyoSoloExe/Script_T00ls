@@ -78,7 +78,7 @@ AllGamesSection:NewButton("Blox Fruit", "Avoir le script Blox fruit", function()
 end)
 
 AllGamesSection:NewButton("murder mystery 2", "Avoir le script mm2", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/solexz/rbx-scripts/main/onefruitsimulator.lua'))() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
 end)
 
 --invisible
