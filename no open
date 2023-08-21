@@ -74,7 +74,7 @@ AllGamesSection:NewButton("Brookhaven rp", "Avoir le script brookhaven", functio
 end)
 
 AllGamesSection:NewButton("Blox Fruit", "Avoir le script Blox fruit", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript'))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))() 
 end)
 
 AllGamesSection:NewButton("murder mystery 2", "Avoir le script mm2", function()
